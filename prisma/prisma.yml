@@ -1,0 +1,9 @@
+#endpoint: ''
+#endpoint: https://us1.prisma.sh/dennis-chia-c27e24/graphql-tutorial/
+endpoint: https://us1.prisma.sh/dennis-chia-c27e24/graphql-tutorial/dev
+
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
